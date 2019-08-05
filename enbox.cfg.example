@@ -1,0 +1,14 @@
+[NetBox]
+# The URL for the API root for your NetBox install
+ApiUrl = your.url.here
+
+[ssh]
+# Default username to use for SSH connections
+userName = sshUserName
+
+####
+# Uncomment the below line if you want to specify an SSH password for the
+# above user.
+#
+# If not specified here, you will be prompted to enter it
+# password = superSekretP455w0rd
