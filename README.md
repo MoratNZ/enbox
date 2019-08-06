@@ -4,7 +4,7 @@ Tooling for linting NetBox contents, with an eye on easing import of brown-field
 
 ## Project status
 
-Very very very early dev.
+Very, very, very early dev.
 
 ## Current tools
 
