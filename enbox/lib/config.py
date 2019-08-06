@@ -27,7 +27,7 @@ def load(fileName):
     return config
 
 
-def create(fileName, url=None, token="your.token.here"):
+def create(fileName, url="your.url.here", token="your.token.here"):
     """Creates a default config file in the indicated location.
 
     Arguments:
