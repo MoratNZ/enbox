@@ -13,8 +13,7 @@ Very, very, very early dev.
 
 ## Installing for development
 
-Clone the repository at https://github.com/MoratNZ/enbox
+Clone the repository at <https://github.com/MoratNZ/enbox>
 
 Run `pipenv install` to setup a virtual environment and install dependencies.
-
-Run `pip install . ` to install the module
+Run `pip install .` to install the module
