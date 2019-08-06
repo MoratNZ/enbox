@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+
+scriptPath = os.path.split(__file__)[0]
+sys.path.append("%s/../" % scriptPath)
+
+from enbox.lib.config import create as createConfig  # noqa
+
+if __name__ == "__main__":
+    createConfig("%s/../enbox.cfg" % scriptPath)
