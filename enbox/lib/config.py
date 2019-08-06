@@ -19,7 +19,7 @@ def load(fileName):
     if os.path.exists(fileName):
         config.read(fileName)
     else:
-        raise IOError("Config file '%s' does not exist" % fileName)
+        raise OSError("Config file '%s' does not exist" % fileName)
 
     config = configparser.ConfigParser()
     config.read(fileName)

@@ -21,7 +21,10 @@ def _getArgs():
 def main():
     args = _getArgs()
 
-    config = loadConfig(args.configFile)
+    try:
+        config = loadConfig(args.configFile)
+    except OSError as err:
+        exit("Error: unable to load enbox config - %s" % err)
 
     api = enbox.lib.netboxapi.init(config)
 
