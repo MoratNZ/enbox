@@ -30,7 +30,7 @@ class SampleConfigFileTests(unittest.TestCase):
     def test_sample_config_has_correct_entries(self):
         config = loadConfig("%s/../%s" % (scriptPath, sampleConfigFileName))
 
-        url = config['NetBox']['Url']
+        url = config['NetBox']['ApiUrl']
         self.assertEqual(url, "your.url.here",
                          "Sample config file missing netbox url")
 

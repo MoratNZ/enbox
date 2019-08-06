@@ -1,6 +1,8 @@
 [NetBox]
 # The URL for the API root for your NetBox install
-ApiUrl = your.url.here
+Url = your.url.here
+Token = your.token.here
+KeyFile = secrets/keyFile
 
 [ssh]
 # Default username to use for SSH connections
