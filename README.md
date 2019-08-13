@@ -16,3 +16,5 @@ Very very very early dev.
 Clone the repository at https://github.com/MoratNZ/enbox
 
 Run `pipenv install` to setup a virtual environment and install dependencies.
+
+Copy `enbox.cfg.example` to enbox.cfg, and replace the placeholders in it with appropriate values.
