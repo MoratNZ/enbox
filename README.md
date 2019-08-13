@@ -4,7 +4,7 @@ Tooling for linting NetBox contents, with an eye on easing import of brown-field
 
 ## Project status
 
-Very very very early dev.
+Very, very, very early dev.
 
 ## Current tools
 
@@ -13,8 +13,10 @@ Very very very early dev.
 
 ## Installing for development
 
-Clone the repository at https://github.com/MoratNZ/enbox
+Clone the repository at <https://github.com/MoratNZ/enbox>
 
 Run `pipenv install` to setup a virtual environment and install dependencies.
+
+Run `pip install .` to install the module
 
 Copy `enbox.cfg.example` to enbox.cfg, and replace the placeholders in it with appropriate values.
